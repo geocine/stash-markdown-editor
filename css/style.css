@@ -1,0 +1,302 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  background-color: #fff
+}
+
+aside,header,section {
+  display: block
+}
+
+a {
+  background-color: transparent;
+  color: #337ab7;
+  text-decoration: none
+}
+
+kbd,pre {
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace
+}
+
+pre {
+  overflow: auto
+}
+
+kbd {
+  font-size: 1em
+}
+
+pre code,textarea {
+  font-size: 12px;
+  color: inherit
+}
+
+textarea {
+  margin: 0;
+  font: inherit;
+  overflow: auto;
+  line-height: inherit
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse
+}
+
+pre code,td,th {
+  padding: 0
+}
+
+td, th {
+  padding: 7px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+}
+
+*,:after,:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+h1,h2,h3,h4,h5 {
+  color: inherit
+}
+
+h1,h2,h3,h4,h5,h6,textarea {
+  font-family: inherit
+}
+
+code,pre {
+  color: #333;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+code {
+  font-family: monospace;
+  padding: 2px 4px;
+  margin: 0 2px -1px;
+  background-clip: padding-box;
+  display: inline-block;
+}
+
+pre {
+  display: block;
+  padding: 6px 10px;
+  margin: 0 2px -1px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  word-break: break-all;
+  word-wrap: break-word
+}
+
+pre code {
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+  border: 0
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px
+}
+
+.panel {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px
+}
+
+.container-fluid:after,.container-fluid:before,.row:after,.row:before {
+  display: table;
+  content: " "
+}
+
+.container-fluid:after,.row:after {
+  clear: both
+}
+
+.full-height,body,html,section {
+  height: 100%;
+  color: #333
+}
+
+header {
+  height: 64px;
+  background: #1976d2;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  line-height: 64px;
+  color: white;
+  font-size: 20px;
+}
+
+.left {
+  left: 0;
+  width: 50%
+}
+
+#pad,.left,.right {
+  height: 100%;
+  position: absolute
+}
+
+.right {
+  width: 50%;
+  right: 0
+}
+
+#markdown,#pad {
+  padding: 80px 20px 20px 20px;
+  width: 100%;
+  overflow: auto
+}
+
+#pad {
+  top: 0;
+  background: #fafafa;
+  border: 0;
+  outline: 0;
+  resize: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace
+}
+
+#pad::placeholder {
+  color: #c1c1c1;
+  opacity: 1;
+}
+
+#markdown {
+  max-width: 1200px;
+  font-family: Arial,sans-serif;
+  border-left: 1px solid #000
+}
+
+.right,h1,h2,hr {
+  display: block
+}
+
+hr {
+  -webkit-margin-before: .5em;
+  -webkit-margin-after: .5em;
+  -webkit-margin-start: auto;
+  -webkit-margin-end: auto;
+  border-style: inset;
+  border-width: 1px
+}
+
+h1,h2 {
+  font-weight: 400;
+  margin: 10px 0 20px
+}
+
+h1,h2,h3 {
+  line-height: 1.5
+}
+
+h1,h2,h3,h4 {
+  text-transform: none
+}
+
+h1,h2,h3,h4,h5 {
+  padding: 0
+}
+
+h3,h4,h5,h6 {
+  display: block;
+  margin: 10px 0
+}
+
+h1 {
+  font-size: 32px
+}
+
+h2 {
+  font-size: 24px
+}
+
+h3,h4,h5,h6 {
+  font-weight: 700;
+  font-size: 20px
+}
+
+h4,h5,h6 {
+  font-size: 16px;
+  line-height: 1.25
+}
+
+h5,h6 {
+  font-size: 14px;
+  line-height: 1.42857143;
+  text-transform: none
+}
+
+h6 {
+  color: #707070;
+  font-size: 12px;
+  line-height: 1.66666667;
+  text-transform: uppercase;
+  padding: 0
+}
+
+blockquote,p {
+  margin: 10px 0 0 9
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+blockquote {
+  border-left: 1px solid #ccc;
+  color: #707070;
+  margin-left: 19px;
+  padding: 10px 20px;
+  white-space: normal;
+  font-size: 14px
+}
+
+img {
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  max-width: 100%;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

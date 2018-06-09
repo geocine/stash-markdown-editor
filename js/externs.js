@@ -1,0 +1,2 @@
+var addEventListener;
+var DEBUG;
