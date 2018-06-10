@@ -1,4 +1,4 @@
-# Markdown editor for Atlassian Stash
+# Markdown Editor for Atlassian Stash
 
 How to use:
 1. Build the bundle
