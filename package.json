@@ -16,6 +16,7 @@
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14",
     "webpack-closure-compiler": "^2.1.6",
+    "deep-extend": ">=0.5.1",
     "macaddress": ">=0.2.9"
   }
 }
