@@ -17,6 +17,7 @@
     "webpack-cli": "^3.3.2",
     "webpack-closure-compiler": "^2.1.6",
     "deep-extend": ">=0.6.0",
-    "macaddress": ">=0.2.9"
+    "macaddress": ">=0.2.9",
+    "lodash": ">=4.17.11"
   }
 }
